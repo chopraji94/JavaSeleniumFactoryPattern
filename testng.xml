@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="Factory Pattern Chrome" parallel="classes">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="TestLogin1"/>
+            <class name="TestLogin2"/>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Factory Pattern Firefox" parallel="classes">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="TestLogin1"/>
+            <class name="TestLogin2"/>
+        </classes>
+    </test>
+</suite>
