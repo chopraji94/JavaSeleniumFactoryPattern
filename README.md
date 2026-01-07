@@ -1,5 +1,3 @@
-Markdown
-
 # Java Selenium Factory Design Pattern
 
 This repository demonstrates the implementation of the **Factory Design Pattern** in a Selenium Automation Framework. The primary goal of this project is to abstract the complexity of creating different `WebDriver` instances (Chrome, Firefox, Edge, etc.), making the framework highly scalable for **Cross-Browser Testing**.
